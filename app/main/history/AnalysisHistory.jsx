@@ -82,7 +82,7 @@ export default function AnalysisHistory() {
   return (
     <main className="flex flex-col items-center min-h-screen">
       <div className="w-full max-w-5xl bg-white rounded-lg shadow-md p-8">
-        <h1 className="text-4xl mb-6 text-center font-semibold">Your Report History</h1>
+        <h1 className="text-4xl mb-6 text-center font-semibold ">Your Report History</h1>
         <ul className="w-full">
           <li className="flex justify-between items-center bg-gray-200 p-4 mb-2 rounded-md">
             <span className="w-1/4 font-semibold">Session ID</span>
