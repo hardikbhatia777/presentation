@@ -51,12 +51,12 @@
   font-size: 22px;
   color: #333;
   padding-left: 37% !important;
-  padding: 6%;
+  padding: 11%;
 }
 
 .modal {
   background: #fff;
-  width: 90%;
+  width: 65%;
   /* Set the width to 90% of the screen width */
   height: 80%;
   /* Optional: Set a maximum width for very large screens */
