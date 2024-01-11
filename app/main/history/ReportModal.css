@@ -21,23 +21,45 @@
   margin-bottom: 20px;
 }
 
+.modal-body {
+  display: block;
+  align-items: center;
+  background: #72b4e7;
+  border-radius: 2%;
+
+}
+
+.imagemain {
+  padding-left: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+}
+
 .modal-image-placeholder {
-  width: 150px;
-  height: 150px;
-  background-color: #ccc; /* Placeholder background color */
+
+  width: 180px;
+  height: 180px;
+  background-color: #ccc;
+  /* Placeholder background color */
   border-radius: 50%;
-  margin-right: 20px;
+
+
 }
 
 .modal-details {
-  font-size: 16px;
+  font-size: 22px;
   color: #333;
+  padding-left: 37% !important;
+  padding: 11%;
 }
 
 .modal {
   background: #fff;
-  width: 90%; /* Set the width to 90% of the screen width */
-  height: 80%; /* Optional: Set a maximum width for very large screens */
+  width: 65%;
+  /* Set the width to 90% of the screen width */
+  height: 80%;
+  /* Optional: Set a maximum width for very large screens */
   max-height: 80%;
   overflow-y: auto;
   padding: 20px;
@@ -64,7 +86,7 @@
 
 .close-btn {
   position: absolute;
-    right: 0;
+  right: 0;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -72,11 +94,15 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-right: 20px;
   transition: background-color 0.3s;
 }
 
 .close-btn:hover {
-  background-color: #0056b3;
+  background-color: #e12810;
+}
+
+.sessionid {
+  font-size: 16px;
 }
