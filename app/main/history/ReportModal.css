@@ -20,20 +20,22 @@
   align-items: center;
   margin-bottom: 20px;
 }
-.modal-body{
+
+.modal-body {
   display: block;
   align-items: center;
   background: #72b4e7;
   border-radius: 2%;
-  
+
 }
 
-.imagemain{
+.imagemain {
   padding-left: 40%;
   padding-top: 5%;
   padding-bottom: 5%;
   align-items: center;
 }
+
 .modal-image-placeholder {
 
   width: 180px;
@@ -41,15 +43,15 @@
   background-color: #ccc;
   /* Placeholder background color */
   border-radius: 50%;
-  
+
 
 }
 
 .modal-details {
   font-size: 22px;
   color: #333;
-  padding-left: 34% !important;
-  padding: 12%;
+  padding-left: 37% !important;
+  padding: 6%;
 }
 
 .modal {
@@ -98,9 +100,9 @@
 }
 
 .close-btn:hover {
-  background-color: #0056b3;
+  background-color: #e12810;
 }
 
-.sessionid{
+.sessionid {
   font-size: 16px;
 }
